@@ -2,19 +2,13 @@ import os
 
 os.system('cls')
 
-( 'Solicitando dados -')
+nome = input('Digite seu nome: ')
+sexo = input('Digite seu sexo: ')
+estado_civil = input('Digite seu estado civil: ')
 
-nome = input('Digite seu nome?')
+if sexo == 'feminino' and estado_civil == 'casada':
+   tempo = int(input('Digite o tempo de casamento: '))
+   print(f'Tempo de casamento: {tempo} anos')
+   
+print(f'Nome: {nome} \n Sexo: {sexo} \n Estado Civil: {estado_civil}')
 
-sexo = input('Qual seu sexo?')
-
-estado_civil = input('Digite seu estado civil?')
-
-tempo_casada = nome
-
-if sexo == 'feminino' and estado_civil == "CASADA":
-    tempo_casada = int(input('Quanto tempo de casamento?'))
-    print(f'\n --- Dados do úsuario')
-    print(f'Nome', {nome})
-    print (f'sexo', {sexo})
-    print(f'estado_civil', {estado_civil})
