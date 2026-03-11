@@ -2,12 +2,14 @@ import os
 
 os.system('cls')
 
-A = int(input('Digite o valor de A'))
-B = int(input('Digite o valor de B'))
+a = int(input('Digite o primeiro valor: '))
+b = int(input('Digite o segundo valor: '))
 
-if A == B:
-    C = A + B
-else: 
-    C = A * B
-
-print(f'O valor de C é',C)
+if a == b:
+    soma = a + b
+    c = soma
+    print(f'o resultado é:{c}')
+elif a != b:
+    multiplicacao = a * b
+    c = multiplicacao 
+    print(f'o resultado é: {c}')    
