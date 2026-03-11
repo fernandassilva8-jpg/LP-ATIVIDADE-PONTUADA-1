@@ -2,21 +2,13 @@ import os
 
 os.system('cls')
 
-print('Solicitando dados - ')
+a = float(input("Digite o primeiro valor: "))
+b = float(input('Digite o segundo valor: '))
+c = float(input('Digite o terceiro valor: '))
 
-valor_a = float(input('Digite o valor A'))
-valor_b = float(input('Digite o valor B'))
-valor_c = float(input('Digite o valor C'))
+soma = a + b
 
-#Cálculo de soma
-soma = a + b 
-print ('A soma de A + B',  {soma})
-
-#Comparação 
-
-if soma < C:
-    print = ('A + B é maior que C')
-elif soma > C:
-        print('A + B é maior que C')
+if soma > c:
+    print('a soma é maior que c')
 else:
-      print('A + B é igual a C')
+    print('a soma é menor que c')
