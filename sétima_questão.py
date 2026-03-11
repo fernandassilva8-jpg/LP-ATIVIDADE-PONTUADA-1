@@ -7,7 +7,6 @@ nome = input("Digite o nome do produto: ")
 quantidade = int(input("Digite a quantidade adquirida: "))
 preco_unitario = float(input("Digite o preço unitário: "))
 
-
 total = quantidade * preco_unitario
 
 if quantidade <= 5:
@@ -23,4 +22,5 @@ total_pagar = total - desconto
 print("\nProduto:", nome)
 print("Total da compra: R$", total)
 print("Desconto: R$", desconto)
+
 print("Total a pagar: R$", total_pagar)
